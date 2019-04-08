@@ -12,12 +12,12 @@ Hyperscan是一款可以同时匹配多个正则表达式的高性能正则引�
 2. 配置Hyperscan
 
 		cd where-you-store-hyperscan-source
-		mkdir build-di
+		mkdir build-dir
 		cd build-dir
 
 3. 构建Hyperscan
 
-		cmake --build .. - 构建makefile
+		cmake .. - 构建makefile
 		make -j jobs - 并行编译
 
 4. 检查Hyperscan
